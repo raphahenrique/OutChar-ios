@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		AB2CEFF5234925BD00BAEFD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2CEFF4234925BD00BAEFD4 /* AppDelegate.swift */; };
 		AB2CEFF7234925BD00BAEFD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2CEFF6234925BD00BAEFD4 /* ViewController.swift */; };
-		AB2CEFFA234925BD00BAEFD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2CEFF8234925BD00BAEFD4 /* Main.storyboard */; };
+		AB2CEFFA234925BD00BAEFD4 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2CEFF8234925BD00BAEFD4 /* Login.storyboard */; };
 		AB2CEFFC234925BE00BAEFD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB2CEFFB234925BE00BAEFD4 /* Assets.xcassets */; };
 		AB2CEFFF234925BE00BAEFD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2CEFFD234925BE00BAEFD4 /* LaunchScreen.storyboard */; };
 		AB2CF00A234925BE00BAEFD4 /* OurChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2CF009234925BE00BAEFD4 /* OurChatTests.swift */; };
@@ -37,7 +37,7 @@
 		AB2CEFF1234925BD00BAEFD4 /* OurChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OurChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB2CEFF4234925BD00BAEFD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB2CEFF6234925BD00BAEFD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AB2CEFF9234925BD00BAEFD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB2CEFF9234925BD00BAEFD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
 		AB2CEFFB234925BE00BAEFD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB2CEFFE234925BE00BAEFD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB2CF000234925BE00BAEFD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -97,12 +97,9 @@
 		AB2CEFF3234925BD00BAEFD4 /* OurChat */ = {
 			isa = PBXGroup;
 			children = (
-				AB2CEFF4234925BD00BAEFD4 /* AppDelegate.swift */,
-				AB2CEFF6234925BD00BAEFD4 /* ViewController.swift */,
-				AB2CEFF8234925BD00BAEFD4 /* Main.storyboard */,
-				AB2CEFFB234925BE00BAEFD4 /* Assets.xcassets */,
-				AB2CEFFD234925BE00BAEFD4 /* LaunchScreen.storyboard */,
-				AB2CF000234925BE00BAEFD4 /* Info.plist */,
+				AB2CF0242349277500BAEFD4 /* Supporting Files */,
+				AB2CF0232349276400BAEFD4 /* Resources */,
+				AB2CF0222349275D00BAEFD4 /* Source */,
 			);
 			path = OurChat;
 			sourceTree = "<group>";
@@ -123,6 +120,41 @@
 				AB2CF016234925BE00BAEFD4 /* Info.plist */,
 			);
 			path = OurChatUITests;
+			sourceTree = "<group>";
+		};
+		AB2CF0222349275D00BAEFD4 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				AB2CF0252349284900BAEFD4 /* Login */,
+				AB2CEFFD234925BE00BAEFD4 /* LaunchScreen.storyboard */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		AB2CF0232349276400BAEFD4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AB2CEFFB234925BE00BAEFD4 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AB2CF0242349277500BAEFD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB2CEFF4234925BD00BAEFD4 /* AppDelegate.swift */,
+				AB2CF000234925BE00BAEFD4 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB2CF0252349284900BAEFD4 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				AB2CEFF6234925BD00BAEFD4 /* ViewController.swift */,
+				AB2CEFF8234925BD00BAEFD4 /* Login.storyboard */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +263,7 @@
 			files = (
 				AB2CEFFF234925BE00BAEFD4 /* LaunchScreen.storyboard in Resources */,
 				AB2CEFFC234925BE00BAEFD4 /* Assets.xcassets in Resources */,
-				AB2CEFFA234925BD00BAEFD4 /* Main.storyboard in Resources */,
+				AB2CEFFA234925BD00BAEFD4 /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,12 +325,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AB2CEFF8234925BD00BAEFD4 /* Main.storyboard */ = {
+		AB2CEFF8234925BD00BAEFD4 /* Login.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				AB2CEFF9234925BD00BAEFD4 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Login.storyboard;
 			sourceTree = "<group>";
 		};
 		AB2CEFFD234925BE00BAEFD4 /* LaunchScreen.storyboard */ = {
@@ -435,7 +467,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5Z67258WU3;
-				INFOPLIST_FILE = OurChat/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/OurChat/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,7 +487,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5Z67258WU3;
-				INFOPLIST_FILE = OurChat/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/OurChat/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
